@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+    
+<nav>
+    <ul id="navbar">
+        <li>
+        <a href= "#">Back Home
+        </a>
+        </li>
+    </ul>
+</nav>
+    
+    <center>
+    <svg viewBox='-450 -300 900 450'>
+  <path id="bracelet" fill="none" stroke="none" d='M-201,0
+           C-201,-250 201,-250 201,0'/>
+  <path fill="none" stroke-width="30px"; stroke="#000000" d='M-201,0
+           C-190,53 77,200 320,140'/>
+  <path fill="none" stroke-width="30px"; stroke="#000000" d='M-320,140
+           C-77,200 190,53 201,6'/>
+    <text>
+        <textPath href="#bracelet">
+        BRACELETS
+        </textPath>
+    </text>
+        </svg>
+    </center>
+
+    <div class="curve"></div>
+<main>
+    <center style="background: #53b3cb;">
+        
+        <h3>Price: $5</h3>
+        
+        <section class="words" id="top">
+        <h2>Original</h2>
+            <p style="max-width: 400px; font-size: 20px;">These are made from cut PET bottles (resin no. 1) and use nylon for the string.</p>
+        </section>
+        
+        <section class="ibuprofen">
+            <img id="product-pic" src="https://lh3.googleusercontent.com/hEk6dbsiIHv6kV9FUS5xHBz0oPPQ2fvoRReO8z-Zs26AieJRt92Qvj71oVU78Lok68qi7HcGnsp9GAu3hQnQJA7t5R5meKL3WC0Af6Cr7aC9ZrExAS0OV70WooEKK0RrpG6jzt-7hg">
+            <img id="product-pic" src="https://lh3.googleusercontent.com/jfa4EOdTCK3A5f9Ty6LvapR6tGcSg38gj46dx-qkWEGmkz-mn-iSZpV2lXLxg-8itYjHloYHOfbmiNP9J50QGngFT100g0SR6j0I_G0QtyhLSAwezVVNBX32W9ul5-ba0HCJOKbb5Q">
+            <img id="product-pic" src="https://lh3.googleusercontent.com/3thfURjV2PgpP6mwfEkZJdOYyfVLd7mDcN_obHP1dYZoAz2okqP4_BOaxTcycxS6RR5yMIfEi6YWwkzl6g5amTUeBKgKFDZCTz7OnEajyKHrETFoUsAZOS0YFlpQoA4nw6cdK77cgQ">
+            <img id="product-pic" src="https://lh3.googleusercontent.com/O2cEE1qxkcHVk-BSRgryROH887CjzPMnZptFz2nZ39VXm_JbqSCXHtXLuFLtNb9d7KKY9953W6UMkCYqQly9bXXmr8LXUFsDKO061TSgpRdM7MR75HkncUX4TNkOpjtdHXoGHorp1w">
+        </section>
+        
+        <section class="words">
+        <h2>Waxed Hemp</h2>
+            <p style="max-width: 400px; font-size: 20px;">There are only two colors of the hemp varient available.</p>
+        </section>
+        
+        <section style="height: 50vw;"class="ibuprofen">
+            <img style="width: 50vw;" id="product-pic" src="https://lh3.googleusercontent.com/oxGBVzaqS0K6bPRICc6eJu52vQmiJ_KgSR_px6lgsg6HwR9x7yPkMKKMk0U-MaAl5xWBztC_NFLHuEP4ME7jyrfkjhcq86JJ1DZ62_LDvOk0dsR6P1AiSkorBmRLbjKlD8cA4vbZDg">
+            
+            <img style="width: 50vw;" id="product-pic" src="https://lh3.googleusercontent.com/aMrmRuoUYc8XnRczturPu7Ys_8hDArU0IHRD2XumAFTDK9BrTzglY36Hjeh6LAFlPNpdF9RnAUeOQNLf0Q7y1EpL2__Xh0syA_Y9PUCoCkT0UT03eADJ8lUS6bd1GbGy5i0OYuNpaQ">
+        </section>
+        
+        <section class="words" style="border-bottom-left-radius: 50%; border-bottom-right-radius: 50%; margin-bottom: 40px;">
+        <h2>How to order</h2>
+            <p style="max-width: 400px; font-size: 20px;">Fill out the form below and be sure to specify the color and quantity you want.</p>
+        </section>
+        
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeFDiBg5kZgTiKqh09qv4-cXSp86Vr8qw5WgM6J0TgGuvjz1g/viewform?embedded=true" width="640" height="508" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </center>
+</main>
+
+<style>
+    @import url("https://use.typekit.net/rgn0kaa.css");
+    
+    text {
+        font-size: 93px;
+        font-family: cooper-black-std;
+        font-weight: 600;
+        fill: #f15946;
+    }
+    
+    svg {
+        transform: scale(.5);
+
+        overflow: hidden;
+        max-width: 900px;
+        position: relative;
+        z-index: 2;
+        transition: margin .5s;
+        animation-delay: 2s;
+    }
+    
+    main {
+        background: #53b3cb;;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        overflow: hidden;
+        top: 0;
+    }
+    
+    body {
+        background: #ffffff;
+    }
+
+    h1 {
+        font-family: cooper-black-std, serif;
+        font-style: italic;
+        font-weight: 600;
+        font-size: 20px;
+        position: absolute;
+        margin-top: 92px;
+        text-align: center;
+        left: 50%;
+        margin-left: -90px;
+        color: #FFFFFF;
+        pointer-events: none;
+    }
+    
+    #name {
+        font-family: georgia;
+        font-style: italic;
+        font-size: 15px;
+        position: absolute;
+        top: 65px;
+        left: 50%;
+        margin-left: -39px;
+        pointer-events: none;
+        color: #FFFFFF;
+    }
+    
+    .curve {
+        width: 100%;
+        height: 380px;
+        position: absolute;
+        background: #FFEBCB;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius: 100%;
+    }
+    
+    h3 {
+        font-size: 40px;
+        color: #000000;
+        font-family: cooper-black-std, serif;
+        font-style: italic;
+        position: absolute;
+        width: 100%;
+        top: -15px;
+        z-index: 2;
+    }
+    
+    h2 {
+        font-family: cooper-black-std, serif;
+        font-style: italic;
+        font-size: 25px;
+        font-weight: bold;
+        color: #f15946;
+    }
+    
+    h4 {
+        font-size: 30px;
+        font-family: cooper-black-std, serif;
+        background: #FFFFFF;
+        width: 400px;
+        border-radius: 25px;
+        padding: 20px;
+    }
+    
+    p {
+        font-family: Times;
+        font-size: 15px;
+    }
+
+    .words {
+        background: #FFEBCB;
+        padding: 5px;
+    }
+    
+    .new {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding-top: 40px;
+        display: block;
+        column-count: 2;
+        align-content: center;
+        height: auto;
+        padding-top: 400px;
+    }
+    
+    .new > div {
+        left: 20px;
+        margin-bottom: 20px;
+        height: auto;
+        width: 250px;
+        max-height: 450px;
+        background: #FFFFFF;
+        transition-delay: 2s;
+        transition: height .5s, width .5s;
+        border-radius: 40px;
+        align-content: center;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+    #fish {
+        max-width: 200px;
+    }
+    
+    #navbar {
+        z-index: 3;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        list-style-type: none;
+        margin: 0;
+        padding-left: 0;
+        padding-top: 20px;
+        overflow: hidden;
+        top: 0;
+        margin: 0;
+    }
+    
+    #top {
+        margin-top: 400px;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+    }
+
+    li a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        padding: 20px 20px;
+        color: #FFFFFF;
+        font-family: cooper-black-std, serif;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 13px;
+        margin-left: 10px;
+        float: left;
+        border-radius: 40px;
+        background: #000000;
+        transition: font-size .2s;
+    }
+    
+    li a:hover {
+        font-size: 18px;
+    }
+    
+
+    #rotate {
+        color: #FFFFFF;
+        animation-name: rotate;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        height: auto;
+        font-size: 13px; 
+        width: 13px; 
+        height: 19px;
+        float: left; 
+        position: absolute; 
+        top: 128.5px; 
+        left: 49.8%;
+        margin-left: -3.6px;
+    }
+    
+    .ibuprofen {
+        height: 25vw;
+        width: 100vw;
+        overflow: hidden;
+        background: #000000;
+    }
+    
+    
+    #product-pic {
+        display: grid;
+        height: auto;
+        width: 25vw;
+        float: left;
+        transition: transform .5s, font-size .5s;
+    }
+    
+    #product-pic:hover {
+        transform: scale(1.25);
+        background: #000000;
+    }
+    
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    
+    
+    /*    Optimization     */
+
+    @media (max-width: 650px) {
+    .new {
+        padding-top: 285px;
+    }
+    .curve {
+        height: 250px;
+    }
+    svg {
+        margin-top: 20px;
+    }
+    .new > div {
+        transform: scale(.7);
+        min-width: 200px;
+    }
+    
+    #top {
+        margin-top: 260px;
+    }
+    
+</style>
+</html>
